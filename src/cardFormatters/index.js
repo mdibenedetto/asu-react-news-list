@@ -4,7 +4,7 @@ import "./styles.scss";
 const formatAsCard = (item) => {
   return (
     <div className="col col-12 col-lg-4" key={item.nid}>
-      <button onClick={() => window.open(item.path, "_blank")}>
+      <button onClick={() => window.open(item.path, "_self")}>
         <div className="card card card-hover h-100">
           <img
             className="card-img-top"
@@ -36,7 +36,7 @@ const formatAsCard = (item) => {
 const formatAsCardRow = (item) => {
   return (
     <div className="card card-hover" key={item.nid}>
-      <button onClick={() => window.open(item.path, "_blank")}>
+      <button onClick={() => window.open(item.path, "_self")}>
         <div className="row no-gutters">
           <div className="col-md-4">
             <img

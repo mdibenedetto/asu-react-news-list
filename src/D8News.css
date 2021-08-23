@@ -9,6 +9,14 @@
     outline: inherit;
     height: 100%;
 }
+
+.D8News .card-hover > button:focus,
+.D8News button:focus, a:focus {
+  /* border-radius: 1000px; */
+  outline: none !important;
+  box-shadow: 0px 0px 0px 2px #ffffff, 0px 0px 0px 4px #191919 !important;
+}
+
 .D8News .card-body,
 .D8News .card-tags {
   text-align:left;
